@@ -1,12 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shift & Drive Application</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="nav_header">
+      <nav class="nav">
+        <div class="nav_logo">
+          <a href="./index.html">Shift & Drive</a>
+        </div>
+        <ul class="nav_menu">
+          <li><a href="#">Inventory</a></li>
+          <li><a href="#">Sell Your Car</a></li>
+          <li><a href="#">Financing</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <div class="nav_btn">
+          <div class="nav_search">
+            <img src="./images/loupe.png" alt="Search" />
+          </div>
+          <button>Sign In</button>
+        </div>
+      </nav>
+    </header>
+    <section class="hero_section">
+      <div class="hero_content">
+        <span class="hero_subtitle">The Transparent Showroom</span>
+        <h2 class="hero_title">Drive Your <span>Vision</span></h2>
+        <p class="hero_descp">
+          Experience the precision of a curated automotive gallery. No <br />
+          hidden fees, no friction, just pure engineering excellence.
+        </p>
+        <form class="hero_form">
+          <div class="form_group">
+            <label for="Make">Make</label>
+            <select>
+              <option value="all_makes">All Makes</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="Make">Model</label>
+            <select>
+              <option value="all_makes">All Models</option>
+              <option value="911 Carrera">911 Carrera</option>
+              <option value="911 Carrera">911 Carrera</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="price">Price range</label>
+            <select>
+              <option value="$50k - $80k">$50k - $80k</option>
+              <option value="$100k - $200k">$100k - $200k</option>
+              <option value="$200k+">$200k+</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <button>
+              <img src="./images/magnifying-glass.png" alt="Search" />
+              Show Inventory
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>

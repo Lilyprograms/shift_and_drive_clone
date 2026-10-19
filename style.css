@@ -1,6 +1,154 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav_header {
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(221, 221, 221, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.nav_menu li a {
+  color: #475569;
+  text-decoration: none;
+}
+.nav_btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav_search {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dedede;
+}
+.nav_search img {
+  width: 18px;
+}
+.nav_btn button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.nav_logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+.hero_section {
+  background: linear-gradient(90deg, rgba(13, 28, 50, 0.85) 0%, rgba(13, 28, 50, 0.4) 70%, transparent 100%), url(./images/hero-image.jpg);
+  background-size: cover;
+  background-position: right;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.hero_content {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.hero_subtitle {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #ffffff40;
+  color: white;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.hero_title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 70px;
+  color: white;
+}
+.hero_title span {
+  color: #0d6efd;
+  display: block;
+}
+.hero_descp {
+  color: white;
+  line-height: 1.7;
+  margin-bottom: 60px;
+}
+.hero_form {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+.form_group {
+  width: 100%;
+}
+.form_group label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #6c757d;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.form_group select {
+  width: 100%;
+  padding: 15px;
+  background-color: #dfe8ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  outline-color: #8cb9fc;
+}
+.form_group select option {
+  background-color: white;
+}
+.form_group button {
+  width: 100%;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.form_group button img {
+  width: 15px;
 }
