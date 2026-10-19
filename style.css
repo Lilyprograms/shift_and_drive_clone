@@ -4,3 +4,73 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.mirabel_div{
+    padding: 70px 0;
+}
+.mirabel_div h1{
+    text-align: center;
+    font-size: 50px;
+}
+.mirabel_review{
+    background-color: var(--surface-container-low);
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+.mirabel_r1{
+    background-color: #d6e3ff;
+    padding: 30px 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.m{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+.s{
+    text-align: left;
+    display: flex;
+    justify-content: first baseline;
+    margin-left: 10px;
+}
+.mirabel_r1 p{
+    font-style: italic;
+    font-size: 20px;
+}
+.lime{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.footer_container{
+    background-color: rgba(248, 249, 250, 1);
+   
+}
+
+.footer_section{
+    
+    display: flex;
+    gap: 30px;
+    padding: 60px 0;
+    justify-content: space-between;
+    line-height: 1.5;
+     width: 80%;
+    margin: 0 auto;
+}
+.fs ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: var(--bs-secondary-rgb);
+}
+.fs h4 p {
+    margin-left: 10px;
+    line-height: 2;
+    display: flex;
+}
+
